@@ -10,6 +10,10 @@
   <modules>
     <module>cloud-provider-payment8001</module>
     <module>cloud-consumer-order80</module>
+    <module>cloud-api-commons</module>
+    <module>cloud-eureka-server7001</module>
+    <module>cloud-eureka-server7002</module>
+    <module>cloud-provider-payment8002</module>
   </modules>
   <packaging>pom</packaging><!-- 这里添加，注意不是jar或war -->
 
@@ -100,7 +104,7 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-<!--        <version>2.0.1.RELEASE</version>-->
+        <version>2.0.1.RELEASE</version>
         <configuration>
           <fork>true</fork>
           <addResources>true</addResources>
