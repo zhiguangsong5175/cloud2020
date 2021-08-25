@@ -1,4 +1,4 @@
-package com.atgugui.springcloud;
+package com.atguigu.springcloud;
 
 
 import org.springframework.boot.SpringApplication;
