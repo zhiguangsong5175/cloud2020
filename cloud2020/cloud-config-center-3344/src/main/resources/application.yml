@@ -13,9 +13,9 @@ spring:
           ####搜索目录
           search-paths:
             - springcloud-config
-          force-pull: true
-          username: zhiguangsong5175
-          password: szg794293
+#          force-pull: true
+#          username: zhiguangsong5175
+#          password: szg794293
       ####读取分支
       label: master
 
